@@ -1,6 +1,6 @@
 {
   "name": "fiction-expo-floating-label",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is fully dynamic and customizable to support floating labels in expo, react-native",
   "main": "index.js",
   "keywords": [
