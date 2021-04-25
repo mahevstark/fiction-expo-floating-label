@@ -12,7 +12,17 @@
   "author": "Fiction Developers",
   "license": "ISC",
   "dependencies": {
-    "expo-updates": "^0.4.1",
     "native-base": "^2.15.2"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahevstark/fiction-expo-floating-label.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mahevstark/fiction-expo-floating-label/issues"
+  },
+  "homepage": "https://github.com/mahevstark/fiction-expo-floating-label#readme"
 }

@@ -126,8 +126,8 @@ class FictionFloatingLabelInput extends Component {
         <View style={[
             style.defaultContainerStyle,
             containerStyle,
-          !isFocused ? style.defaultFocusedContainerStyle:style.defaultUnFocusedContainerStyle,
-          !isFocused ? focusedContainerStyle:unFocusedContainerStyle,
+          isFocused ? style.defaultFocusedContainerStyle:style.defaultUnFocusedContainerStyle,
+          isFocused ? focusedContainerStyle:unFocusedContainerStyle,
           ]}>
             <View style={[style.defaultSubContainerStyle,subContainerStyle,isFocused?focusedSubContainerStyle:unfocusedSubContainerStyle]}>
               <Animated.Text style={[style.labelStyle,animatedLabelStyle,labelStyle, isFocused?focusedLabelStyle:unfocusedLabelStyle]}>
