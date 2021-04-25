@@ -125,8 +125,9 @@ class FictionFloatingLabelInput extends Component {
       return (
         <View style={[
             style.defaultContainerStyle,
-            containerStyle,
+            
           isFocused ? style.defaultFocusedContainerStyle:style.defaultUnFocusedContainerStyle,
+          containerStyle,
           isFocused ? focusedContainerStyle:unFocusedContainerStyle,
           ]}>
             <View style={[style.defaultSubContainerStyle,subContainerStyle,isFocused?focusedSubContainerStyle:unfocusedSubContainerStyle]}>
